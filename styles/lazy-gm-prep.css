@@ -1,0 +1,23 @@
+/* styles/lazy-gm-prep.css */
+
+.lazy-gm-prep-content {
+  padding: 1em;
+  font-family: var(--font-primary);
+  color: var(--color-text-light-1);
+}
+
+.lazy-gm-prep-content h2 {
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
+  color: var(--color-text-light-2);
+}
+
+.lazy-gm-steps {
+  padding-left: 1.2em;
+  margin-top: 0.5em;
+}
+
+.lazy-gm-steps li {
+  margin-bottom: 0.4em;
+  line-height: 1.4;
+}
