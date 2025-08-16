@@ -12,11 +12,7 @@
     "minimum": "13.0.0",
     "verified": "13.347"
   },
-  "scripts": [
-    "scripts/init.js",
-    "scripts/lazy-gm-prep.js",
-    "scripts/ui.js",
-    "scripts/steps.js"
+  "esmodules": ["scripts/lazy-gm-prep.js"]
   ],
   "styles": ["styles/lazy-gm-prep.css"],
   "languages": [{
