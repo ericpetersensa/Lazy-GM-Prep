@@ -12,8 +12,8 @@
     "minimum": "13.0.0",
     "verified": "13.347"
   },
-  "esmodules": ["scripts/lazy-gm-prep.js"]
-  ],
+  "esmodules": ["scripts/lazy-gm-prep.js"],
+  
   "styles": ["styles/lazy-gm-prep.css"],
   "languages": [{
     "lang": "en",
