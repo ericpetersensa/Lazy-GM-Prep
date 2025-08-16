@@ -1,17 +1,20 @@
 /* styles/lazy-gm-prep.css */
 
+/* Main content container */
 .lazy-gm-prep-content {
   padding: 1em;
   font-family: var(--font-primary);
   color: var(--color-text-light-1);
 }
 
+/* Header styling */
 .lazy-gm-prep-content h2 {
   margin-bottom: 0.5em;
   font-size: 1.4em;
   color: var(--color-text-light-2);
 }
 
+/* Ordered list of steps */
 .lazy-gm-steps {
   padding-left: 1.2em;
   margin-top: 0.5em;
@@ -20,4 +23,25 @@
 .lazy-gm-steps li {
   margin-bottom: 0.4em;
   line-height: 1.4;
+}
+
+/* Action button container */
+.lazy-gm-actions {
+  margin-top: 1em;
+  text-align: center;
+}
+
+/* Journal button styling */
+.open-journal {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  background: var(--color-bg-button);
+  color: var(--color-text-light-1);
+  border: 1px solid var(--color-border-light-primary);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.open-journal:hover {
+  background: var(--color-bg-button-hover);
 }
