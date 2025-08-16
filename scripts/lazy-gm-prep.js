@@ -14,6 +14,5 @@ Hooks.once("ready", () => {
     createLazyGMJournal();
   }
 
-  // Optional: render the app on startup
-  // new LazyGMPrepApp().render(true);
+  new LazyGMPrepApp().render(true);
 });
