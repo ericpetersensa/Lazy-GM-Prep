@@ -1,0 +1,30 @@
+{
+  "id": "lazy-gm-prep",
+  "title": "Lazy GM Prep",
+  "description": "Creates a Journal with the 8 Lazy GM Steps by Michael E. Shea.",
+  "version": "0.0.01",
+  "authors": [{
+    "name": "Eric Petersen",
+    "email": "ericpetersensa@gmail.com",
+    "url": ""
+  }],
+  "compatibility": {
+    "minimum": "13.0.0",
+    "verified": "13.347"
+  },
+  "scripts": [
+    "scripts/init.js",
+    "scripts/lazy-gm-prep.js",
+    "scripts/ui.js",
+    "scripts/steps.js"
+  ],
+  "styles": ["styles/lazy-gm-prep.css"],
+  "languages": [{
+    "lang": "en",
+    "name": "English",
+    "path": "lang/en.json"
+  }],
+  "manifest": "https://raw.githubusercontent.com/ericpetersensa/lazy-gm-prep/main/module.json",
+  "download": "https://github.com/ericpetersensa/lazy-gm-prep/archive/refs/heads/main.zip",
+  "url": "https://github.com/ericpetersensa/lazy-gm-prep"
+}
