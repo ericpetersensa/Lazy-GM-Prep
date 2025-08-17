@@ -2,7 +2,7 @@
 
 import { registerSettings } from "./scripts/settings.js";
 import { createLazyGMJournal } from "./scripts/steps.js";
-import { LazyGMPrepApp } from "./scripts/app.js"; // Assuming you have this already
+import { LazyGMPrepApp } from "./scripts/app.js";
 
 Hooks.once("init", () => {
   console.log("Lazy GM Prep | Initializing module");
@@ -12,7 +12,7 @@ Hooks.once("init", () => {
   game.settings.registerMenu("lazy-gm-prep", "openApp", {
     name: "Lazy GM Prep",
     label: "Open Prep Tool",
-    icon: "fas fa-scroll", // You can change this to any Font Awesome icon
+    icon: "fas fa-scroll",
     type: LazyGMPrepApp,
     restricted: true
   });
