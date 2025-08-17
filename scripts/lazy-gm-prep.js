@@ -1,8 +1,8 @@
 // lazy-gm-prep.js
 
-import { registerSettings } from "./scripts/settings.js";
-import { createLazyGMJournal } from "./scripts/steps.js";
-import { LazyGMPrepApp } from "./scripts/app.js";
+import { registerSettings } from "./settings.js";
+import { createLazyGMJournal } from "./steps.js";
+import { LazyGMPrepApp } from "./app.js";
 
 Hooks.once("init", () => {
   console.log("Lazy GM Prep | Initializing module");
