@@ -25,6 +25,7 @@ export function registerSettings() {
     label: "Lazy GM Prep",
     hint: "Launch the Lazy GM Prep interface.",
     icon: "fas fa-dungeon",
+    config: true,
     type: LazyGMPrepApp,
     restricted: true
   });
