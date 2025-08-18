@@ -6,7 +6,6 @@ import { LazyGMPrepApp } from "./app.js";
 
 Hooks.once("init", () => {
   console.log("Lazy GM Prep | Initializing module");
-
   registerSettings();
 
   game.settings.registerMenu("lazy-gm-prep", "openApp", {
