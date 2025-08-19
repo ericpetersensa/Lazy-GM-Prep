@@ -1,32 +1,30 @@
 // scripts/settings.js
 
 import { LazyGMPrepApp } from "./app.js";
-
 export const MODULE_ID = "lazy-gm-prep";
 
 /**
  * Registers the settings and menu for Lazy GM Prep.
- * Ensures visibility in Game Settings > Configure Settings.
+ * The dummy setting with config:true makes the menu visible.
  */
 export function registerSettings() {
-  // Dummy setting to anchor the settings menu in the UI
+  // 1) Dummy setting to anchor the menu in the UI
   game.settings.register(MODULE_ID, "dummy", {
     name: "Lazy GM Prep",
     hint: "Launch the Lazy GM Prep interface.",
     scope: "world",
-    config: true,
+    config: true,           // <-- makes this setting show up in Configure Settings
     type: Boolean,
     default: false
   });
 
-  // Menu registration for launching the Lazy GM Prep app
+  // 2) The actual menu entry that launches your application
   game.settings.registerMenu(MODULE_ID, "lazy-gm-prep-menu", {
     name: "Lazy GM Prep",
     label: "Lazy GM Prep",
     hint: "Launch the Lazy GM Prep interface.",
     icon: "fas fa-dungeon",
-    config: true,
     type: LazyGMPrepApp,
-    restricted: true
+    restricted: true        // only GMs see this
   });
 }
