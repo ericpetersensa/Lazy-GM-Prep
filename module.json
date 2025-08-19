@@ -2,7 +2,7 @@
   "id": "lazy-gm-prep",
   "title": "Lazy GM Prep",
   "description": "Streamlined prep using the Lazy Dungeon Master method by Michael E. Shea.",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "authors": [{
     "name": "Eric Petersen",
     "email": "ericpetersensa@gmail.com",
@@ -13,6 +13,9 @@
     "verified": "13.347"
   },
   "esmodules": ["scripts/lazy-gm-prep.js"],
+  "esmodules": ["scripts/settings.js"],
+  "esmodules": ["scripts/module.js"],
+  "esmodules": ["scripts/app.js"],
   
   "styles": ["styles/lazy-gm-prep.css"],
   "languages": [{
